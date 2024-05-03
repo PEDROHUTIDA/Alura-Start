@@ -1,5 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
 body{
-    background-color:#5c0994;
+    background-color:#09698f;
     color: #fdfdfd;
 }
 
@@ -13,7 +20,7 @@ body{
 .cabeçalho-lista-item{
         display: inline-block;
         margin: 0 18px;
-        font-size: 24px;
+        font-size: 30px;
 }
 
 .logo{
@@ -23,11 +30,14 @@ body{
     width: 25%;
 }
 .escola{
-    background-image: linear-gradient(#5c0994,#a540b3);
+    background-image: linear-gradient(#09698f,#20aeb3);
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 .escola-conteudo{
     width: 35%;
 }
-
+.escola-titulo{
+    padding: 24px 0;
+}
